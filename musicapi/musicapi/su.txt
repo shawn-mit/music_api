@@ -1,0 +1,4 @@
+username : bumpin
+email: bumpinmusic@gmail.com
+password : Password1234
+

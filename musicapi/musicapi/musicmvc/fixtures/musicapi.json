@@ -1,0 +1,46 @@
+[ 
+  {
+  	"model": "musicmvc.Album",
+  	"pk": 1,
+  	"fields": {
+  		"title":"Structures",
+  		"label":"BedrockRecords",
+  		"release_date":"2010-01-01",
+  		"artist":"1",
+  		"genre":"1"
+  	}
+  },
+
+  {
+  	"model": "musicmvc.Song",
+  	"pk" : 1,
+  	"fields": {
+  		"title" : "My Real Name Is",
+  		"song_length": "5400",
+  		"release_date": "2010-01-01",
+  		"artist":"1",
+  		"album":"1"
+  	}
+  },
+
+  {
+  	"model":"musicmvc.Artist",
+  	"pk": 1,
+  	"fields": {
+  		"first_name":"John",
+  		"last_name":"Digweed",
+  		"year_established":"1989",
+  		"age":"50"
+  	}
+  },
+  
+  {
+  	"model":"musicmvc.Genre",
+  	"pk":1,
+  	"fields": {
+  		"label": "BedrockRecords",
+  		"subgenre":"UK Garage"
+  	}
+  }
+
+]
